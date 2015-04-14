@@ -65,7 +65,6 @@ namespace BeanCounter7
 			catch (FormatException)
 			{
 				txtResult.Text = "Invalid Number Entered!";
-				throw;
 			}
 
 		}
